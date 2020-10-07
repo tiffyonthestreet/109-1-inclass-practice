@@ -1,0 +1,47 @@
+---
+title: "課堂練習模版"
+author: "tiffy"
+date: "2020-10-07"
+output: output_format
+params:
+  id: "410874206"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+a <- 15 # 變數設定
+b <- a # 呼叫a的值，用來設定變數b的值，相當於 b <- 15
+y=22
+c <- y
+```
+
+```{r}
+myName <- "Tiffany"
+```
+
+```{r}
+length(myName)
+
+```
+```{r}
+num1 <- 5
+vNum1 <- c(2,5)
+vNum2 <- c(2, num1)
+```
+
+```{r}
+dialogue <- c('小明說："明天不用上課。"',
+               '小花說："真的嗎？"')
+
+dialogue # 顯示原始值的內容（含輸入時的引號）
+cat(dialogue, sep="\n") # 顯示給人類看（含存出來）的值，sep="\n", 不同元素換行陳列。
+writeLines(dialogue, "conversation.txt") # cat顯示的正是存出來樣貌。
+
+cat("老師說換行要寫\\n, \\是escape的意思")
+cat("老師說換行要寫\'\\n\', \"\\\"是escape的意思")
+```
