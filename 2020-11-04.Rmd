@@ -1,0 +1,25 @@
+---
+title: "課堂練習模版"
+author: "tiffy"
+date: "2020-11-04"
+output: output_format
+params:
+  id: "410874206"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+gender = '女'
+school = '國立臺北大學'
+title = '大觀路全家轉角遇到變態'
+content = '約莫晚上12點，有位穿著西裝筆體的中年男子，在全家通往711那條的人行道上的草叢尿尿，\n雖然夜色有點暗，但還是看得很清楚，請問有人也看過嗎qq'
+tags = '變態'
+timestamp = '2020-11-04 01:03'
+
+```
+
